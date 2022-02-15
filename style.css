@@ -111,7 +111,6 @@ table {
 	}
 	#left_side {
 		flex: 100%;
-		text-align: center;
 	}
 	#right_side {
 		flex: 100%;
