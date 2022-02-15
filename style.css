@@ -24,7 +24,7 @@ nav a {
 }
 
 .menu_right {
-	float: right;
+	float: left;
 }
 
 nav a:hover {
