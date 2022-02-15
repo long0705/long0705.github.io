@@ -20,8 +20,8 @@ nav a {
 }
 
 .menu_left {
-/* 	float: left; */
-	display:block;
+	/*float: left;*/
+	display: block;
 }
 
 .menu_right {
