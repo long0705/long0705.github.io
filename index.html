@@ -1,119 +1,124 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
 	<meta charset="utf-8">
-	<meta name = "description" content="My resume website" />
-	<meta name = "author" content="Long Le" />
-	<meta name = "country" content="Vietnam" />
-	<meta name="viewport" content="width=device-width, intital-scale=1">
-	<link rel="stylesheet" href="style.css">
-	<title>Le Mai Bao Long Resume </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Blog</title>
 </head>
 <body>
-	<h1 id="menu_text">My Resume</h1>
-	<nav>
-		<a href="#contact" class="menu_left">About</a>
-		<a href="#education" class="menu_left">Education</a>
-		<a href="#score" class="menu_left">Score</a>
-		<a href="#social_media" class="menu_left">Social Media</a>
-	</nav>
-	
-	<div id="container">
-		<div id="left_side">
-			<h2 id="contact">About me</h2>
-			<img src="assets/photo.jpg" alt = "My photo" width="200" height="200"/>
-			<p><em>I'm studying in my school</em></p>
-			<ul>
-				<li><strong>Fullname : </strong> Le Mai Bao Long</li>
-				<li><strong>Country : </strong> Viet Nam</li>
-			</ul>
-			
-			<h2 id="education">Education</h2>
-			<ol>
-				<li>Quoc Te A Chau</li>
-				<li>Ly Tu Trong</li>
-				<li>Le Hong Phong</li>
-			</ol>
-
-			<!-- <h2 id="score">Score</h2>
-			<table>
-			  <tr>
-			  	<th rowspan="2"></th>
-			  	<th colspan="2">Math</th>
-			  	<th rowspan="2">Physic</th>
-			  	<th rowspan="2">IT</th>
-			  </tr>
-			  <tr>
-			  	<th>Math1</th>
-			  	<th>Math2</th>
-			  </tr>
-			  <tr>
-			  	<th>2019</th>
-			  	<td>8</td>
-			  	<td>0</td>
-			  	<td>9</td>
-			  	<td>10</td>
-			  </tr>
-			  <tr>
-			  	<th>2020</th>
-			  	<td>8</td>
-			  	<td>0</td>
-			  	<td>7</td>
-			  	<td>9</td>
-			  </tr>
-			  <tr>
-			  	<th>2021</th>
-			  	<td>8</td>
-			  	<td>0</td>
-			  	<td>8</td>
-			  	<td>8</td>
-			  </tr>
-			</table> -->
-			
-			<h2 id="social_media">Social Media</h2>
-			<p>Youtube : <a href="https://www.youtube.com">Youtube</a></p>
-			<p>Facebook : <a href="https://www.facebook.com/profile.php?id=100068864894154">Le Mai Bao Long</a></p>		
+	<nav id="top_flex">
+		<div class="left">
+			<img src="assets/cropped-travel-blogs-logo-small-e1525211075340-1.png" id="logo">
 		</div>
-
-		<div id="right_side">
-			<h2>Online Course</h2>
-			<div id="course_container">
-				<div class = "course_item">
-					<img class="course_img" src="assets/math.jpg"><br>
-					<div class = "course_tit">Logic Math</div>
-					<div class = "course_description">Toán tư duy cơ bản, xây dựng nền tảng cho việc học kĩ thuật và lập trình bậc đại học</div>
-				</div>
-				<div class = "course_item">
-					<img class="course_img" src="assets/web.jpg"><br>
-					<div class = "course_tit">Web Basic</div>
-					<div class = "course_description">Lập trình website cho người mới bắt đầu, xây dựng website cá nhân và hệ thống backend theo ý muốn</div>
-				</div>
-				<div class = "course_item">
-					<img class="course_img" src="assets/python.jpg"><br>
-					<div class = "course_tit">Python Basic</div>	
-					<div class = "course_description">Lập trình python cơ bản đến nâng cao cho người mới, nắm vững kĩ thuật lập trình căn bản</div>
-				</div>
-				<div class = "course_item">
-					<img class="course_img" src="assets/game.jpg"><br>
-					<div class = "course_tit">Game Python</div>
-					<div class = "course_description">Lập trình Game rắn săn mồi, đồng hồ đếm ngược là flappy bird bằng thư viện đồ họa pygame</div>
-				</div>
-				<div class = "course_item">
-					<img class="course_img" src="assets/data.jpg"><br>
-					<div class = "course_tit">Data Science</div>
-					<div class = "course_description">Xử dụng kĩ thuật làm sạch dữ liệu và vẽ biểu đồ bằng thư viện matplotlib để phân tích điểm thi đại học 2020</div>
-				</div>
-				<div class = "course_item">
-					<img class="course_img" src="assets/ai.jpg"><br>
-					<div class = "course_tit">AI Basic</div>
-					<div class = "course_description">Lập trình trí tuệ nhân tạo, thuật toán KNN, K-means, Regression và Gradient Descent, sử dụng toán cao cấp và ma trận cơ bản</div>
-				</div>
-			</div>
+		<div class="right">
+			<li>
+				<a>Home</a>
+			</li>
+			<li>
+				<a >The Map</a>
+			</li>
+			<li>
+				<a >Gear Guides</a>
+			</li>
+			<li>
+				<a >Sumbit A Post</a>
+			</li>
+		</div>
+	</nav>
+	<img id="second_logo" src="assets/the_travel_blogs_header.png"/>
+	<hr>
+	<hr>
+	<div id="overview">
+		<div id="left">
+			<img src="assets/the_blogs_map.jpg">
+		</div>
+		<div id="right">
+			<img src="assets/the_gear_guide.jpg">
 		</div>
 	</div>
-
-	<footer>
-		Created by Long Le - <a href="mailto:baolong070509090909@gmail.com">Email me</a>
-	</footer>
+	<hr>
+	<hr>
+	<h1 class="text_em">Explore the world of travel blogs</h1>
+	<div id="bottom_2">
+		<div id="text_left">
+			<p class="text">
+				The Travel Blogs is where you can find great blogs from all around the world on interactive travel blog maps. Just use the images above to go to your continent and then have some fun looking at some of the great content available.<br><br>
+			</p>
+			<p class="text">
+				I’m Matt, founder of The Travel Blogs & that’s me on a little chair with a little beer. I created this site with the aim of making blogs for travel and posts from the best travel blogs easy to find.<br><br>
+			</p>
+			<p class="text">
+				While travelling, I found it hard to find good travel blogs with posts about the places I wanted to visit. I would often find good travel bloggers, or posts about a place I wanted to visit, sometimes I got lucky, but often I was frustrated.<br><br>
+			</p>
+		</div>
+		<div id="right_img">
+			<img src="assets/Welcome-to-The-Travel-Blogs-1.jpg">
+		</div>
+	</div>
+	<div id="bottom_3">
+		<p class="text">On this travel blog website you will find blogs about travel from all over the world, from famous travel bloggers to new talent creating great content.</p>
+		<p class="text">My goal is to make this one of the best sites for tips and advice while traveling the world. I’m happy you have found my little corner of the web and I hope you enjoy your time here, find something cool and come back sometime.</p>
+	</div>
+	<hr>
+	<hr>
+	<div id="bottom_4">
+		<div id="enjoy">
+			<img class="logo_bottom_4" src="assets/enjoy.png">
+			<p class="title">Enjoy...</p>
+			<p class="text">The Travel Blogs interactive travel blog maps make fun it easy to find blogs for travel based where you want to read about.</p>
+		</div>
+		<div id="discover">
+			<img class="logo_bottom_4" src="assets/discover-150x150.png">
+			<p class="title">Discover...</p>
+			<p class="text">From famous travel bloggers to up and coming new travel blogs, find great travel blogs to read everyday .</p>
+		</div>
+		<div id="explore">
+			<img class="logo_bottom_4" src="assets/share-150x150.png">
+			<p class="title">Explore...</p>
+			<p class="text">Are you a travel blogger looking to share your blog post? Look at our submit your blog page and drop a pin to be found.</p>
+		</div>
+	</div>
+	<hr>
+	<hr>
+	<h1 class="text_em">The Travle Blogs Original Content</h1>
+	<div id="bottom_5">
+		<div id="left_5">
+			<img src="assets/africa3-663x1024.jpg">
+		</div>
+		<div id="right_5">
+			<p class="text">
+				<a>The Travel Blogs original content page </a> is a place where I post and share news about other travel bits that aren’t necessarily destination-based, such as my <a>19 travel tips </a>and how I learned them the hard way.
+			</p>
+			<p class="text">
+				Also As a blogger myself, it is important to me that I also include personal travel blog on my website as well as links to other bloggers. You can check out my <a>original content page</a> or keep an eye out for those red pins while searching the travel blog maps.
+			</p>
+			<p class="text">
+				Oh, and I also have a book!
+			</p>
+			<p class="text">
+				My travel diary and advice book, where it all began back in Africa. You can get a free digital copy by clicking the book image on the left and subscribing to our updates. Alternatively buy it on Amazon here: <a href="">How To Clean Your Underway In Africa: Helpful Advice For Travellers</a>
+			</p>
+		</div>
+	</div>
+	<hr>
+	<hr>
+	<h1>Keep in touch with the Travel Blogs</h1>
+	<p class="text">Earth is a big place so it will take a while to populate the with the best blogs about travel from around the world. In the meantime, be sure to find The Travel Blogs on Facebook, Twitter, Instagram and Pintrest below, I share a healthy mix of news, entertainment, and stories.</p>
+	<p class="text">Of course, I’d recommend <a>subscribing to updates</a>. I send out weekly updates featuring some of the best blogs on travel we have added as well as some other features.</p>
+	<p class="text">What’s more, in case you missed it above, I’ll remind you that if you sign up now, I am giving away a free digital copy of the book that started this blogging journey, How to Clean You Underwear In Africa.</p>
+	<p class="text">Alternatively, just go old school, set us as your homepage and check every day . . . I like that idea!</p>
+	<hr>
+	<hr>
+	<div id="bottom_6">
+		<div id="left_6">
+			<h1 class="text_em">Submit your own post</h1>
+			<p class="text">If you are a travel blogger or write an online travel journal and would like your posts pinned on the travel blog maps, I’d love to hear from you.</p>
+			<p class="text">You can submit posts here, <a>share your travel blog posts</a>, or drop me a line at hello@ thetravelblogs.com.</p>
+		</div>
+		<div id="right_6">
+			<img src="assets/submit_icon-400-x-300-px.png">
+		</div>
+	</div>
 </body>
 </html>
