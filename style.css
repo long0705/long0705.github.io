@@ -137,6 +137,30 @@ body {
 #right_6 {
 	flex: 30%;
 }
+@media(max-width : 450px) {
+	#top_flex {
+		flex-wrap: wrap;
+	} 
+	#second_logo {
+		width: 100%;
+	}
+	#bottom_2 {
+		flex-wrap: wrap;
+	}
+	#overview {
+		flex-wrap: wrap;
+	}
+	}
+	#bottom_4 {
+		flex-wrap: wrap;
+	}
+	#bottom_5 {
+		flex-wrap: wrap;
+	}
+	#bottom_6{
+		flex-wrap: wrap;
+	}
+}
 @media(max-width : 600px) {
 	#top_flex {
 		flex-wrap: wrap;
@@ -193,7 +217,7 @@ body {
 		flex-wrap: wrap;
 	}
 }
-@media(max-width : 850px) {
+@media(max-width : 810px) {
 	#top_flex {
 		flex-wrap: wrap;
 	} 
